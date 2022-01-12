@@ -1,5 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App';
+// import ReactDOMServer from 'react-dom/server';
+import { App } from './components/App';
+import './main.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// console.log(ReactDOMServer.renderToString(<App />));
+ReactDOM.render(<App />, document.getElementById('page-wrapper'));

@@ -1,20 +1,67 @@
 {
-  "name": "casa-carezza-react",
-  "version": "1.0.0",
-  "description": "",
+  "name": "-pack-exercise",
+  "version": "0.10.2",
+  "description": "Casa carezza June 2021",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  --mode=development",
+    "build": "./node_modules/webpack/bin/webpack.js --mode=production",
+    "test": "./node_modules/jest/bin/jest.js --env=jsdom",
+    "test:watch": "./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
+    "test:watch:log": "TERM=dumb ./node_modules/jest/bin/jest.js --watch --env=jsdom --verbose",
+    "coverage": "./node_modules/jest/bin/jest.js --env=jsdom --coverage",
+    "eslint": "eslint ./src",
+    "profile": "./node_modules/webpack/bin/webpack.js --profile --json > stats.json && ./node_modules/.bin/webpack-bundle-analyzer ./stats.json",
+    "render": "babel-node render.js"
   },
+  "keywords": [
+    "react"
+  ],
+  "homepage": "hhttps://github.com/massicattaneo/casa-carezza-react",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/massicattaneo/casa-carezza-react.git"
+    "url": "https://github.com/massicattaneo/casa-carezza-react.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Massimiliano Cattaneo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/massicattaneo/casa-carezza-react/issues"
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-jest": "^27.0.2",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.5",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-react": "^7.23.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.0",
+    "react-test-renderer": "^17.0.2",
+    "sitemap-webpack-plugin": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.37.1",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.0.0-beta.3"
   },
-  "homepage": "https://github.com/massicattaneo/casa-carezza-react#readme"
+  "dependencies": {
+    "@react-firebase/auth": "^0.2.10",
+    "@react-firebase/database": "^0.3.11",
+    "firebase": "^8.6.8",
+    "prop-types": "^15.7.2",
+    "query-string": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-infinite-scroll-hook": "^4.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  }
 }

@@ -1,0 +1,15 @@
+.tabButtons span {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    margin: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.tabButtons span:hover {
+    background-color: rgb(212, 212, 212);
+}
+
+.tabButtons span.selected {
+    background-color: #12537336;
+}

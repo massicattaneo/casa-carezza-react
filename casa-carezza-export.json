@@ -1,0 +1,922 @@
+{
+  "exchange": [
+    "flat_1_week_41_year_2021",
+    "flat_1_week_4_year_2022",
+    "flat_1_week_41_year_2022"
+  ],
+  "flats": [
+    {
+      "number": 1
+    },
+    {
+      "number": 2
+    },
+    {
+      "number": 3
+    },
+    {
+      "number": 4
+    },
+    {
+      "number": 5
+    },
+    {
+      "number": 6
+    },
+    {
+      "number": 7
+    },
+    {
+      "number": 8
+    },
+    {
+      "number": 9
+    },
+    {
+      "number": 10
+    },
+    {
+      "number": 11
+    },
+    {
+      "number": 12
+    },
+    {
+      "number": 13
+    },
+    {
+      "number": 14
+    },
+    {
+      "number": 15
+    },
+    {
+      "number": 16
+    },
+    {
+      "number": 17
+    }
+  ],
+  "periods": [
+    {
+      "number": 1,
+      "weeks": [
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "weeks": [
+        2,
+        39
+      ]
+    },
+    {
+      "number": 3,
+      "weeks": [
+        3,
+        40
+      ]
+    },
+    {
+      "number": 4,
+      "weeks": [
+        4,
+        41
+      ]
+    },
+    {
+      "number": 5,
+      "weeks": [
+        5,
+        42
+      ]
+    },
+    {
+      "number": 6,
+      "weeks": [
+        6,
+        43
+      ]
+    },
+    {
+      "number": 7,
+      "weeks": [
+        7
+      ]
+    },
+    {
+      "number": 8,
+      "weeks": [
+        8
+      ]
+    },
+    {
+      "number": 9,
+      "weeks": [
+        9
+      ]
+    },
+    {
+      "number": 10,
+      "weeks": [
+        10
+      ]
+    },
+    {
+      "number": 11,
+      "weeks": [
+        11
+      ]
+    },
+    {
+      "number": 12,
+      "weeks": [
+        12
+      ]
+    },
+    {
+      "number": 13,
+      "weeks": [
+        13,
+        14
+      ]
+    },
+    {
+      "number": 14,
+      "weeks": [
+        15,
+        16
+      ]
+    },
+    {
+      "number": 15,
+      "weeks": [
+        22,
+        23
+      ]
+    },
+    {
+      "number": 16,
+      "weeks": [
+        24,
+        25
+      ]
+    },
+    {
+      "number": 17,
+      "weeks": [
+        26,
+        27
+      ]
+    },
+    {
+      "number": 18,
+      "weeks": [
+        28,
+        29
+      ]
+    },
+    {
+      "number": 19,
+      "weeks": [
+        30
+      ]
+    },
+    {
+      "number": 20,
+      "weeks": [
+        31,
+        32,
+        48,
+        49
+      ]
+    },
+    {
+      "number": 21,
+      "weeks": [
+        33,
+        34
+      ]
+    },
+    {
+      "number": 22,
+      "weeks": [
+        17,
+        35,
+        36
+      ]
+    },
+    {
+      "number": 23,
+      "weeks": [
+        37,
+        38
+      ]
+    },
+    {
+      "number": 24,
+      "weeks": [
+        50,
+        51,
+        52
+      ]
+    }
+  ],
+  "rent": [
+    "flat_11_week_3_year_2021",
+    "flat_11_week_3_year_2022",
+    "flat_11_week_40_year_2022",
+    "flat_1_week_41_year_2021",
+    "flat_1_week_4_year_2022",
+    "flat_1_week_41_year_2022",
+    "flat_10_week_35_year_2022",
+    "flat_10_week_36_year_2022",
+    "flat_13_week_9_year_2022",
+    "flat_11_week_12_year_2022",
+    "flat_6_week_11_year_2021",
+    "flat_6_week_11_year_2022",
+    "flat_13_week_9_year_2021",
+    "flat_5_week_31_year_2022",
+    "flat_5_week_32_year_2022",
+    "flat_5_week_48_year_2022",
+    "flat_5_week_49_year_2022",
+    "flat_7_week_50_year_2022",
+    "flat_7_week_51_year_2022",
+    "flat_7_week_52_year_2022"
+  ],
+  "sell": [
+    "flat_11_period_3",
+    "flat_1_period_4",
+    "flat_6_period_11"
+  ],
+  "users": [
+    {
+      "emails": [
+        "massi.cattaneo.it@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 13,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "ottaniclaudia.57@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 16,
+          "period": 19
+        }
+      ]
+    },
+    {
+      "emails": [
+        "tulliocapelli59@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 16
+        }
+      ]
+    },
+    {
+      "emails": [
+        "catiadanzo@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 5,
+          "period": 9
+        }
+      ]
+    },
+    {
+      "emails": [
+        "lexite@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 2,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "brunellamorelli@tiscali.it"
+      ],
+      "properties": [
+        {
+          "flat": 15,
+          "period": 16
+        }
+      ]
+    },
+    {
+      "emails": [
+        "denise.ronzan@alice.it"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 12
+        }
+      ]
+    },
+    {
+      "emails": [
+        "paglia71@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "andros@racine.ra.it"
+      ],
+      "properties": [
+        {
+          "flat": 17,
+          "period": 5
+        }
+      ]
+    },
+    {
+      "emails": [
+        "arturo.preti@ima.it"
+      ],
+      "properties": [
+        {
+          "flat": 1,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "farnet1963@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 13,
+          "period": 19
+        }
+      ]
+    },
+    {
+      "emails": [
+        "laura@boulegan.com"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 4
+        },
+        {
+          "flat": 9,
+          "period": 5
+        }
+      ]
+    },
+    {
+      "emails": [
+        "levamalini@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 15,
+          "period": 4
+        }
+      ]
+    },
+    {
+      "emails": [
+        "motauto.chiavenna@tiscali.it"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 16
+        }
+      ]
+    },
+    {
+      "emails": [
+        "r.degano@tin.it"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 13
+        }
+      ]
+    },
+    {
+      "emails": [
+        "rosannalaporta56@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 12,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "emails": [
+        "elisabetta.finazzi14@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 12,
+          "period": 19
+        }
+      ]
+    },
+    {
+      "emails": [
+        "lcntorti@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 6,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "ynotacinora@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 14,
+          "period": 9
+        }
+      ]
+    },
+    {
+      "emails": [
+        "francogigante@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 7,
+          "period": 5
+        }
+      ]
+    },
+    {
+      "emails": [
+        "luca.bessone@bancamediolanum.it"
+      ],
+      "properties": [
+        {
+          "flat": 16,
+          "period": 23
+        }
+      ]
+    },
+    {
+      "emails": [
+        "sessalivio@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "setilug@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 1,
+          "period": 4
+        }
+      ]
+    },
+    {
+      "emails": [
+        "ivo.cadore@live.it"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 19
+        }
+      ]
+    },
+    {
+      "emails": [
+        "carla1garella@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 16,
+          "period": 1
+        }
+      ]
+    },
+    {
+      "emails": [
+        "bartolucci@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 12
+        }
+      ]
+    },
+    {
+      "emails": [
+        "blues592004@yahoo.it"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 1
+        }
+      ]
+    },
+    {
+      "emails": [
+        "a.vezzaro@rowan.it"
+      ],
+      "properties": [
+        {
+          "flat": 14,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "alberto.lanza13@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 1,
+          "period": 12
+        }
+      ]
+    },
+    {
+      "emails": [
+        "cesare.conforti1949@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 22
+        }
+      ]
+    },
+    {
+      "emails": [
+        "roberta.costa1@tin.it"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 9
+        },
+        {
+          "flat": 13,
+          "period": 9
+        }
+      ]
+    },
+    {
+      "emails": [
+        "rossella.sgarroni@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 15,
+          "period": 20
+        }
+      ]
+    },
+    {
+      "emails": [
+        "gibonari@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 15
+        }
+      ]
+    },
+    {
+      "emails": [
+        "aranauro@outlook.it"
+      ],
+      "properties": [
+        {
+          "flat": 12,
+          "period": 20
+        }
+      ]
+    },
+    {
+      "emails": [
+        "g.tobaldo47@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 6,
+          "period": 18
+        }
+      ]
+    },
+    {
+      "emails": [
+        "maribarber@email.it"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 17
+        }
+      ]
+    },
+    {
+      "emails": [
+        "m.elide@yahoo.it"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "silvano.scapellato@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 6,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "m.crosasso@studiocrosasso.it"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 6
+        }
+      ]
+    },
+    {
+      "emails": [
+        "robertacoccolo@hotmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "falc2011@yahoo.it"
+      ],
+      "properties": [
+        {
+          "flat": 7,
+          "period": 24
+        },
+        {
+          "flat": 5,
+          "period": 20
+        }
+      ]
+    },
+    {
+      "emails": [
+        "giovannisergi@alice.it"
+      ],
+      "properties": [
+        {
+          "flat": 13,
+          "period": 21
+        }
+      ]
+    },
+    {
+      "emails": [
+        "laura@paneferrarese.com"
+      ],
+      "properties": [
+        {
+          "flat": 7,
+          "period": 1
+        },
+        {
+          "flat": 8,
+          "period": 1
+        }
+      ]
+    },
+    {
+      "emails": [
+        "enzo.salerno1969@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 16,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "andreacucovaz@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "info@maresiricambi.it"
+      ],
+      "properties": [
+        {
+          "flat": 2,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "parapini.s@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 3,
+          "period": 24
+        }
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "number": 1
+    },
+    {
+      "number": 2
+    },
+    {
+      "number": 3
+    },
+    {
+      "number": 4
+    },
+    {
+      "number": 5
+    },
+    {
+      "number": 6
+    },
+    {
+      "number": 7
+    },
+    {
+      "number": 8
+    },
+    {
+      "number": 9
+    },
+    {
+      "number": 10
+    },
+    {
+      "number": 11
+    },
+    {
+      "number": 12
+    },
+    {
+      "number": 13
+    },
+    {
+      "number": 14
+    },
+    {
+      "number": 15
+    },
+    {
+      "number": 16
+    },
+    {
+      "number": 17
+    },
+    {
+      "number": 22
+    },
+    {
+      "number": 23
+    },
+    {
+      "number": 24
+    },
+    {
+      "number": 25
+    },
+    {
+      "number": 26
+    },
+    {
+      "number": 27
+    },
+    {
+      "number": 28
+    },
+    {
+      "number": 29
+    },
+    {
+      "number": 30
+    },
+    {
+      "number": 31
+    },
+    {
+      "number": 32
+    },
+    {
+      "number": 33
+    },
+    {
+      "number": 34
+    },
+    {
+      "number": 35
+    },
+    {
+      "number": 36
+    },
+    {
+      "number": 37
+    },
+    {
+      "number": 38
+    },
+    {
+      "number": 39
+    },
+    {
+      "number": 40
+    },
+    {
+      "number": 41
+    },
+    {
+      "number": 42
+    },
+    {
+      "number": 43
+    },
+    {
+      "number": 48
+    },
+    {
+      "number": 49
+    },
+    {
+      "number": 50
+    },
+    {
+      "number": 51
+    },
+    {
+      "number": 52
+    }
+  ]
+}
