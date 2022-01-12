@@ -1,0 +1,34 @@
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+body #root {
+  height: 100%;
+}
+
+.app {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+}
+.app .app-body {
+  min-height: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.app .app-body > aside {
+  width: 300px;
+  min-height: 100%;
+  height: 100%;
+  padding: 25px;
+}
+
+.main-content {
+  padding: 25px;
+  position: relative;
+  overflow-y: scroll;
+  min-height: 100%;
+  flex: 1;
+  background-color: #EAEAEA;
+}
