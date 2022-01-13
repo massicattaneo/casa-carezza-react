@@ -783,6 +783,17 @@
           "period": 24
         }
       ]
+    },
+    {
+      "emails": [
+        "gantonietta57@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 1
+        }
+      ]
     }
   ],
   "weeks": [

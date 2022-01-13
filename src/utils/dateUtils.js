@@ -18,7 +18,7 @@ const months = ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'l
 export const getFormattedWeek = (year, week) => {
     const from = new Date(getFirstSaturday(year).getTime() + ((week - 1) * (7 * oneDay)));
     const to = new Date(from.getTime() + 7 * oneDay);
-    return `Da Sabato ${from.getDate()} ${months[from.getMonth()]} ${year} a Sabato ${to.getDate()} ${months[to.getMonth()]} ${year}`;
+    return `Da Sabato ${from.getDate()} ${months[from.getMonth()]} ${year} a Sabato ${to.getDate()} ${months[to.getMonth()]} ${to.getFullYear()}`;
 };
 
 export const getFormattedShortWeek = (year, week) => {
