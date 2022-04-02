@@ -219,7 +219,8 @@
       "weeks": [
         50,
         51,
-        52
+        52,
+        53
       ]
     }
   ],
@@ -794,6 +795,47 @@
           "period": 1
         }
       ]
+    },
+    {
+      "emails": [
+        "toromassimo1@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 16,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "augusta.berna@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 14,
+          "period": 10
+        }
+      ]
+    },
+    {
+      "emails": [
+        "mercury4199@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 12,
+          "period": 7
+        },
+        {
+          "flat": 13,
+          "period": 7
+        },
+        {
+          "flat": 14,
+          "period": 7
+        }
+      ]
     }
   ],
   "weeks": [
@@ -928,6 +970,9 @@
     },
     {
       "number": 52
+    },
+    {
+      "number": 53
     }
   ]
 }

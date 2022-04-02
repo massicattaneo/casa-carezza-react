@@ -8,8 +8,6 @@ export const BOARD_TYPES = {
     exchange: 'SCAMBIO'
 };
 
-console.log(<BoardList/>);
-
 export function Board() {
     const [type, setType] = useState('rent');
     const [list, setList] = useState(null);

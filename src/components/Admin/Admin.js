@@ -24,7 +24,7 @@ export function Admin() {
 
     useEffect(() => {
         if (!user) return;
-        getDb().then(data => {
+        getDb(year).then(data => {
             const { properties: elems } = data.users.find(el => el.emails.find(inner => inner === user.email));
             const pepe = elems.map(item => ({
                 ...item,

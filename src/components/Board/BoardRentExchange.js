@@ -15,7 +15,7 @@ export function BoardRentExchange(props) {
             </tr>
             <tr style={{ background: '#f3ffef' }}>
                 <td>SETTIMANA:</td>
-                <td><strong>{getFormattedWeek(props.val.year, props.val.week)}</strong></td>
+                <td><strong>{getFormattedWeek(Number(props.val.year), Number(props.val.week))}</strong></td>
             </tr>
             <tr>
                 <td>CONTATTACI:</td><td>

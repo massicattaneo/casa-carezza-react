@@ -1,5 +1,14 @@
 import firebase from 'firebase/app';
 import { getFirstSaturday, getStartSaturday } from './dateUtils';
+// import localDB from '../../casa-carezza-export.json';
+
+const oneDay = 60 * 60 * 24 * 1000;
+
+const isExceptionalYear = year => {
+    const week = 53;
+    const from = new Date(getFirstSaturday(year).getTime() + ((week - 1) * (7 * oneDay)));
+    return (from.getFullYear() === year && from.getDay() === 6);
+};
 
 export const findSell = (data, item) => data.sell.find(el => el === `flat_${item.flat}_period_${item.period}`);
 export const findItem = (data, type, item) => data[type].find(el => el === `flat_${item.flat}_week_${item.week}_year_${item.year}`);
@@ -21,6 +30,7 @@ const sortByFlatAndWeek = (first, second) => {
     if (saturday1.getTime() === saturday2.getTime()) return flat1 - flat2;
     if (saturday1.getTime() > saturday2.getTime()) return 1;
     if (saturday1.getTime() < saturday2.getTime()) return -1;
+    return undefined;
 };
 
 const findUserEmail = (data, { flat, week, period }) => {
@@ -51,16 +61,19 @@ export const getAll = (db, type) => {
         .sort(sortByFlatAndWeek);
 };
 
-export const getDb = () => {
+export const getDb = year => {
+    const isExceptional = year ? isExceptionalYear(year) : false;
     const database = firebase.database();
     return Promise.all([
         new Promise(resolve => {
             database.ref('users/').on('value', snapshot => {
+                // resolve(localDB.users);
                 resolve(snapshot.val());
             });
         }),
         new Promise(resolve => {
             database.ref('periods/').on('value', snapshot => {
+                // resolve(localDB.periods);
                 resolve(snapshot.val());
             });
         }),
@@ -72,6 +85,7 @@ export const getDb = () => {
         new Promise(resolve => {
             database.ref('weeks/').on('value', snapshot => {
                 resolve(snapshot.val());
+                // resolve(localDB.weeks);
             });
         }),
         new Promise(resolve => {
@@ -91,12 +105,15 @@ export const getDb = () => {
         })
     ]).then(values => {
         const users = values[0];
-        const periods = values[1];
+        const periods = values[1].map(item => ({ ...item, weeks: item.weeks.slice(0) }));
         const flats = values[2];
-        const weeks = values[3];
+        const weeksTemp = values[3];
         const rent = values[4] || [];
         const exchange = values[5] || [];
         const sell = values[6] || [];
+        const period24 = periods.find(item => item.number === 24);
+        if (!isExceptional) period24.weeks.splice(period24.weeks.length - 1, 1);
+        const weeks = isExceptional ? weeksTemp : weeksTemp.slice(0, weeksTemp.length - 1);
         return {
             users, periods, flats, weeks, rent, exchange, sell
         };
