@@ -13,7 +13,7 @@ export function Board() {
     const [list, setList] = useState(null);
 
     useEffect(() => {
-        getDb().then(db => {
+        getDb(2022).then(db => {
             const inner = getAll(db, type);
             setList(inner.sort((first, second) => {
                 if (!first.week) return 0;
