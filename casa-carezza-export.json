@@ -2,7 +2,14 @@
   "exchange": [
     "flat_1_week_41_year_2021",
     "flat_1_week_4_year_2022",
-    "flat_1_week_41_year_2022"
+    "flat_1_week_41_year_2022",
+    "flat_12_week_7_year_2022",
+    "flat_13_week_7_year_2022",
+    "flat_14_week_7_year_2022",
+    "flat_12_week_7_year_2023",
+    "flat_13_week_7_year_2023",
+    "flat_14_week_7_year_2023",
+    "flat_5_week_32_year_2022"
   ],
   "flats": [
     {
@@ -239,17 +246,14 @@
     "flat_6_week_11_year_2022",
     "flat_13_week_9_year_2021",
     "flat_5_week_31_year_2022",
-    "flat_5_week_32_year_2022",
-    "flat_5_week_48_year_2022",
-    "flat_5_week_49_year_2022",
-    "flat_7_week_50_year_2022",
-    "flat_7_week_51_year_2022",
-    "flat_7_week_52_year_2022"
+    "flat_3_week_53_year_2022"
   ],
   "sell": [
     "flat_11_period_3",
     "flat_1_period_4",
-    "flat_6_period_11"
+    "flat_6_period_11",
+    "flat_15_period_20",
+    "flat_11_period_17"
   ],
   "users": [
     {
@@ -834,6 +838,94 @@
         {
           "flat": 14,
           "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "donatellagaeta283@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 5,
+          "period": 10
+        }
+      ]
+    },
+    {
+      "emails": [
+        "dibellalilia@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 1,
+          "period": 17
+        }
+      ]
+    },
+    {
+      "emails": [
+        "maurosetti@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 17,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "emails": [
+        "guido.testa@bancamediolanum.it"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 6
+        }
+      ]
+    },
+    {
+      "emails": [
+        "pagliucavalerio@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 7,
+          "period": 23
+        }
+      ]
+    },
+    {
+      "emails": [
+        "luca@romanato.net"
+      ],
+      "properties": [
+        {
+          "flat": 17,
+          "period": 16
+        }
+      ]
+    },
+    {
+      "emails": [
+        "m.cipriani85@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 2,
+          "period": 2
+        }
+      ]
+    },
+    {
+      "emails": [
+        "albesino@tiscali.it"
+      ],
+      "properties": [
+        {
+          "flat": 6,
+          "period": 15
         }
       ]
     }

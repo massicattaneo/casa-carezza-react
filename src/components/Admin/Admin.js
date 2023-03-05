@@ -5,8 +5,10 @@ import {
     getDb, getWeeksByPeriod, findSell, updateSell, updateItem
 } from '../../utils/dbUtils';
 import { getFormattedShortWeek, getYears } from '../../utils/dateUtils';
+import { AdminFiles } from './AdminFiles';
 
 export function Admin() {
+    // Find all the prefixes and items.
     const [user, setUser] = useState();
     const [properties, setProperties] = useState([]);
     const [year, setYear] = useState(new Date().getFullYear());
@@ -98,6 +100,8 @@ export function Admin() {
                     </div>)}
                 </div>)}
             </form>
-        </div>;
+            <hr/>
+            <AdminFiles/>
+        </div>
     </section>;
 }

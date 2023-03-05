@@ -3,11 +3,16 @@ import { Route, BrowserRouter as Router, Redirect } from 'react-router-dom';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 import 'firebase/database';
+import 'firebase/storage';
 import { FirebaseDatabaseProvider } from '@react-firebase/database';
 import { FirebaseAuthProvider } from '@react-firebase/auth';
+import { setChonkyDefaults } from 'chonky';
+import { ChonkyIconFA } from 'chonky-icon-fontawesome';
 import routes from '../data/routes';
 import { Header } from './Header/Header';
 import { Footer } from './Footer/Footer';
+
+setChonkyDefaults({ iconComponent: ChonkyIconFA });
 
 const config = {
     apiKey: 'AIzaSyA1j77rKhEvBv8plIJXEOST-zUS5NM6lC0',

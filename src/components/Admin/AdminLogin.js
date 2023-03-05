@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable no-alert */
 import React from 'react';
 import firebase from 'firebase/app';
