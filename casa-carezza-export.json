@@ -5,11 +5,12 @@
     "flat_1_week_41_year_2022",
     "flat_12_week_7_year_2022",
     "flat_13_week_7_year_2022",
-    "flat_14_week_7_year_2022",
-    "flat_12_week_7_year_2023",
-    "flat_13_week_7_year_2023",
-    "flat_14_week_7_year_2023",
-    "flat_5_week_32_year_2022"
+    "flat_15_week_48_year_2023",
+    "flat_1_week_26_year_2023",
+    "flat_1_week_27_year_2023",
+    "flat_1_week_26_year_2024",
+    "flat_1_week_27_year_2024",
+    "flat_13_week_11_year_2024"
   ],
   "flats": [
     {
@@ -246,14 +247,62 @@
     "flat_6_week_11_year_2022",
     "flat_13_week_9_year_2021",
     "flat_5_week_31_year_2022",
-    "flat_3_week_53_year_2022"
+    "flat_3_week_53_year_2022",
+    "flat_10_week_17_year_2022",
+    "flat_13_week_9_year_2023",
+    "flat_13_week_11_year_2023",
+    "flat_17_week_2_year_2022",
+    "flat_17_week_39_year_2022",
+    "flat_17_week_2_year_2023",
+    "flat_17_week_39_year_2023",
+    "flat_6_week_22_year_2022",
+    "flat_6_week_23_year_2022",
+    "flat_6_week_22_year_2023",
+    "flat_6_week_23_year_2023",
+    "flat_15_week_31_year_2023",
+    "flat_15_week_32_year_2023",
+    "flat_15_week_48_year_2023",
+    "flat_10_week_33_year_2023",
+    "flat_10_week_34_year_2023",
+    "flat_13_week_9_year_2024",
+    "flat_2_week_2_year_2023",
+    "flat_2_week_39_year_2023",
+    "flat_3_week_50_year_2023",
+    "flat_3_week_51_year_2023",
+    "flat_2_week_33_year_2023",
+    "flat_2_week_34_year_2023",
+    "flat_1_week_26_year_2024",
+    "flat_1_week_27_year_2024",
+    "flat_13_week_11_year_2024",
+    "flat_4_week_7_year_2023",
+    "flat_4_week_8_year_2023",
+    "flat_13_week_48_year_2023",
+    "flat_13_week_49_year_2023",
+    "flat_13_week_26_year_2024",
+    "flat_13_week_26_year_2023",
+    "flat_13_week_27_year_2023",
+    "flat_2_week_51_year_2023",
+    "flat_2_week_39_year_2024",
+    "flat_15_week_31_year_2024",
+    "flat_15_week_32_year_2024",
+    "flat_15_week_48_year_2024",
+    "flat_15_week_49_year_2024",
+    "flat_14_week_7_year_2024",
+    "flat_13_week_7_year_2024"
   ],
   "sell": [
     "flat_11_period_3",
     "flat_1_period_4",
     "flat_6_period_11",
+    "flat_11_period_17",
     "flat_15_period_20",
-    "flat_11_period_17"
+    "flat_16_period_11",
+    "flat_4_period_8",
+    "flat_4_period_7",
+    "flat_15_period_8",
+    "flat_13_period_20",
+    "flat_13_period_17",
+    "flat_13_period_11"
   ],
   "users": [
     {
@@ -926,6 +975,316 @@
         {
           "flat": 6,
           "period": 15
+        }
+      ]
+    },
+    {
+      "emails": [
+        "milanvranes@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 7,
+          "period": 24
+        }
+      ]
+    },
+    {
+      "emails": [
+        "sandro.palermo@rentokil-initial.com"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 10
+        }
+      ]
+    },
+    {
+      "emails": [
+        "cristinagros72@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 14,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "chiara.731@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 1,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "simo.dedo.72@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 17,
+          "period": 9
+        }
+      ]
+    },
+    {
+      "emails": [
+        "lucia.azzurro@hotmail.it"
+      ],
+      "properties": [
+        {
+          "flat": 13,
+          "period": 17
+        }
+      ]
+    },
+    {
+      "emails": [
+        "marinaromano1789@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 14
+        }
+      ]
+    },
+    {
+      "emails": [
+        "info@feimar.it"
+      ],
+      "properties": [
+        {
+          "flat": 13,
+          "period": 20
+        }
+      ]
+    },
+    {
+      "emails": [
+        "degreg55@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 7
+        },
+        {
+          "flat": 4,
+          "period": 8
+        }
+      ]
+    },
+    {
+      "emails": [
+        "rodolfo.padroni@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 8,
+          "period": 16
+        }
+      ]
+    },
+    {
+      "emails": [
+        "dianalapia@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 20
+        },
+        {
+          "flat": 16,
+          "period": 18
+        }
+      ]
+    },
+    {
+      "emails": [
+        "andrea.nadia2000@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 15,
+          "period": 17
+        }
+      ]
+    },
+    {
+      "emails": [
+        "c.canobbio@alice.it"
+      ],
+      "properties": [
+        {
+          "flat": 15,
+          "period": 8
+        }
+      ]
+    },
+    {
+      "emails": [
+        "lara021@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 5,
+          "period": 18
+        },
+        {
+          "flat": 5,
+          "period": 19
+        }
+      ]
+    },
+    {
+      "emails": [
+        "rossano.valenzano@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 8,
+          "period": 22
+        }
+      ]
+    },
+    {
+      "emails": [
+        "eugenio.maliscev@hotmail.it"
+      ],
+      "properties": [
+        {
+          "flat": 6,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "marco.batocchi@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 11,
+          "period": 22
+        },
+        {
+          "flat": 10,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "andro.palermo@rentokil-initial.com"
+      ],
+      "properties": [
+        {
+          "flat": 10,
+          "period": 10
+        }
+      ]
+    },
+    {
+      "emails": [
+        "mailto:a.rapini@hapoor.it"
+      ],
+      "properties": [
+        {
+          "flat": 4,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "ddelconte@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 2,
+          "period": 24
+        }
+      ]
+    },
+    {
+      "emails": [
+        "sandra.gardin@treellemarmi.it"
+      ],
+      "properties": [
+        {
+          "flat": 12,
+          "period": 7
+        },
+        {
+          "flat": 13,
+          "period": 7
+        },
+        {
+          "flat": 14,
+          "period": 7
+        }
+      ]
+    },
+    {
+      "emails": [
+        "mass.baldoni@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 3
+        }
+      ]
+    },
+    {
+      "emails": [
+        "carlacacciotti@libero.it"
+      ],
+      "properties": [
+        {
+          "flat": 5,
+          "period": 5
+        }
+      ]
+    },
+    {
+      "emails": [
+        "marmarchesi61@gmail.com"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 11
+        }
+      ]
+    },
+    {
+      "emails": [
+        "maurosilvestrini@radioblu.com"
+      ],
+      "properties": [
+        {
+          "flat": 5,
+          "period": 24
+        }
+      ]
+    },
+    {
+      "emails": [
+        "info@studiolegalemoscattini.it"
+      ],
+      "properties": [
+        {
+          "flat": 9,
+          "period": 21
         }
       ]
     }
